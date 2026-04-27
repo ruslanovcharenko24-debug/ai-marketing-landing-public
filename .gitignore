@@ -1,0 +1,43 @@
+# Secrets and credentials — must never be committed
+.env
+.env.*
+*.env
+secrets/
+credentials/
+*.key
+*.pem
+id_rsa
+id_rsa.pub
+*.p12
+*.pfx
+
+# Private project directories — must never be added here
+private/
+core/
+backend/
+data/
+client-data/
+prompts-private/
+methodology-private/
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Build outputs
+dist/
+build/
+.cache/
+.tmp/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor state
+.vscode/settings.json
+*.swp
